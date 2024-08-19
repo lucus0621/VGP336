@@ -16,3 +16,4 @@ C:\Users\User\Desktop\AnimationForGames\AnimationForGames\SpringEngine\External\
 C:\Users\lcv0408969\Desktop\AnimationForGames\AnimationForGames\AnimationForGames\SpringEngine\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\lucus\OneDrive\Desktop\SpringEngine\SpringEngine\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\LCV2112650\Desktop\SpringEngine\SpringEngine\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+C:\Users\LCV2112650\Desktop\VGP336\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

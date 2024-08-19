@@ -10,7 +10,9 @@
       "FileName": "../../Assets/Models/FinalAnim/Dance_1/Dance_1.model",
       "Animation": [
         "../../Assets/Models/FinalAnim/Dance_1/Dance_1.animset",
-        "../../Assets/Models/FinalAnim/Dance_2/Dance_2.animset"
+        "../../Assets/Models/FinalAnim/Dance_2/Dance_2.animset",
+        "../../Assets/Models/FinalAnim/Clap_1/Clap_1.animset",
+        "../../Assets/Models/FinalAnim/Clap_2/Clap_2.animset"
       ]
     },
     "AnimatorComponent": {

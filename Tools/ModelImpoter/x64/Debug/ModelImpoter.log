@@ -1,1 +1,16 @@
-﻿
+﻿  main.cpp
+C:\Users\LCV2112650\Desktop\VGP336\Framework\Graphics\Inc\AnimationUtil.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(38,50): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1232,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1357,21): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1361,21): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1385,20): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1387,23): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\Engine\SpringEngine\Inc\GameWorld.h(11,4): warning C5030: attribute [[depricated]] is not recognized
+C:\Users\LCV2112650\Desktop\VGP336\Tools\ModelImpoter\main.cpp(36,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\Tools\ModelImpoter\main.cpp(126,4): warning C4018: '<': signed/unsigned mismatch
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1269,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+  ModelImpoter.vcxproj -> C:\Users\LCV2112650\Desktop\VGP336\x64\Debug\ModelImpoter.exe
+  C:\Users\LCV2112650\Desktop\VGP336\External\assimp-5.2.5\bin\assimp-vc143-mt.dll
+  C:\Users\LCV2112650\Desktop\VGP336\External\assimp-5.2.5\bin\assimp-vc143-mtd.dll
+          2 file(s) copied.

@@ -1,1 +1,22 @@
-﻿
+﻿  GameState.cpp
+C:\Users\LCV2112650\Desktop\VGP336\Framework\Graphics\Inc\AnimationUtil.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(38,50): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1232,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1357,21): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1361,21): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1385,20): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1387,23): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\Engine\SpringEngine\Inc\GameWorld.h(11,4): warning C5030: attribute [[depricated]] is not recognized
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1269,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+  WinMain.cpp
+C:\Users\LCV2112650\Desktop\VGP336\Framework\Graphics\Inc\AnimationUtil.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(38,50): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1232,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1357,21): warning C4244: '+=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1361,21): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1385,20): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1387,23): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+C:\Users\LCV2112650\Desktop\VGP336\Engine\SpringEngine\Inc\GameWorld.h(11,4): warning C5030: attribute [[depricated]] is not recognized
+C:\Users\LCV2112650\Desktop\VGP336\External\Bullet\BulletSoftBody\btSoftBody.h(1269,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+  Generating Code...
+  25_HelloGameWorld.vcxproj -> C:\Users\LCV2112650\Desktop\VGP336\x64\Debug\25_HelloGameWorld.exe
