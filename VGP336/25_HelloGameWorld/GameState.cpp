@@ -1,13 +1,36 @@
 #include"GameState.h"
+#include"CustomDebugDrawComponent.h"
+#include"CustomDebugDrawDisplayService.h"
 
 using namespace SpringEngine;
 using namespace SpringEngine::Graphics;
 using namespace SpringEngine::Math;
 using namespace SpringEngine::Input;
 
+namespace
+{
+	Component* CustomComponentMake(const std::string& componentName, GameObject& gameObject)
+	{
+		if (componentName == "CustomDebugDrawComponent")
+		{
+			return gameObject.AddComponent<CustomDebugDrawComponent>();
+		}
+		return nullptr;
+	}
+	Service* CustomServiceMake(const std::string& serviceName, GameWorld& gameWorld)
+	{
+		if (serviceName == "CustomDebugDrawDisplayService")
+		{
+			return gameWorld.AddService<CustomDebugDrawDisplayService>();
+		}
+		return nullptr;
+	}
+}
+
 void GameState::Initialize()
 {
-
+	GameObjectFactory::SetCustomMake(CustomComponentMake);
+	GameWorld::SetCustomService(CustomServiceMake);
 	mGameWorld.LoadLevel("../../Assets/Templates/test_level.json");
 }
 void GameState::Terminate()

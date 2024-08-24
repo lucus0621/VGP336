@@ -5,9 +5,13 @@
 
 namespace SpringEngine
 {
+	using CustomService = std::function<Service* (const std::string&, GameWorld&)>;
+
 	class GameWorld final
 	{
 	public:
+		static void SetCustomService(CustomService customService);
+
 		[[depricated]]void Initialize();
 		void Initialize(uint32_t capacity = 0);
 		void Terminate();

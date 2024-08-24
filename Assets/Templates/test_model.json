@@ -16,7 +16,14 @@
       ]
     },
     "AnimatorComponent": {
-      "StartPlayIndex":  0
+      "StartPlayIndex": 0
+    },
+    "CustomDebugDrawComponent": {
+      "Slices": 30,
+      "Rings": 5,
+      "Radius": 1.0,
+      "Position": [ 0.0, 1.0, 0.0 ],
+      "Color":  [1.0, 1.0, 0.0, 1.0]
     }
   }
 }

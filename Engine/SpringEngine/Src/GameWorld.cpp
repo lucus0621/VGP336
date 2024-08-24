@@ -11,6 +11,15 @@
 
 using namespace SpringEngine;
 
+namespace 
+{
+	CustomService TryService;
+}
+void GameWorld::SetCustomService(CustomService customService)
+{
+	TryService = customService;
+}
+
 void GameWorld::Initialize()
 {
 	ASSERT(!mInitialized, "GameWorld: is already initialized");
@@ -103,8 +112,12 @@ void GameWorld::LoadLevel(const std::filesystem::path& levelFile)
 	for (auto& service : services)
 	{
 		std::string serviceName = service.name.GetString();
-		Service* newService = nullptr;
-		if (serviceName == "CameraService")
+		Service* newService = TryService(serviceName, *this);
+		if (newService != nullptr)
+		{
+			LOG("Custom Service %s was successfully added to the world", serviceName.c_str());
+		}
+		else if (serviceName == "CameraService")
 		{
 			newService = AddService<CameraService>();
 		}
