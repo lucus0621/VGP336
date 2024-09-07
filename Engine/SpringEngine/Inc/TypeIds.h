@@ -11,6 +11,7 @@ namespace SpringEngine
 		Mesh,					// Renders a MeshBuilt shape
 		Model,					// Renders a Model
 		Animator,				// Controls a Model's animation
+		RigidBody,              //Adds a rigidbody to the world
 
 		Count
 	};
@@ -21,6 +22,7 @@ namespace SpringEngine
 		Camera,                // Registers and manages focus camera
 		Update,				   // Registers and updates any component that requires an update
 		Render,                // Registers and renders any graphical components
+		Physics,		       // Registers and updates physics based objects
 
 		Count
 	};

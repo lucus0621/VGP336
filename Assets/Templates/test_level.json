@@ -15,6 +15,9 @@
     },
     "CustomDebugDrawDisplayService": {
 
+    },
+    "PhysicsService": {
+      "Gravity": [ 0.0, -9.8, 0.0 ]
     }
   },
   "GameObjects": {
@@ -25,28 +28,31 @@
         "LookAt": [ 0.0, 0.0, 0.0 ]
       }
     },
+    "Ground": {
+      "Template": "../../Assets/Templates/ground.json"
+    },
     "TestObject0": {
       "Template": "../../Assets/Templates/test_model.json",
       "TransformComponent": {
-        "Position": [ 1.0, 0.0, 0.0 ]
+        "Position": [ 1.0, 1.0, 0.0 ]
       }
     },
     "TestObject1": {
       "Template": "../../Assets/Templates/test_model.json",
       "TransformComponent": {
-        "Position": [ 1.0, 0.0, 1.0 ]
+        "Position": [ 1.0, 1.0, 1.0 ]
       }
     },
     "TestObject2": {
       "Template": "../../Assets/Templates/test_model.json",
       "TransformComponent": {
-        "Position": [ -1.0, 0.0, 0.0 ]
+        "Position": [ -1.0, 1.0, 0.0 ]
       }
     },
     "TestObject3": {
       "Template": "../../Assets/Templates/test_model.json",
       "TransformComponent": {
-        "Position": [ -1.0, 0.0, 1.0 ]
+        "Position": [ -1.0, 1.0, 1.0 ]
       }
     },
     "TestObjectRight1": {

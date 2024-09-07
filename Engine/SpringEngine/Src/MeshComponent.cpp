@@ -26,7 +26,7 @@ void MeshComponent::Deserialize(const rapidjson::Value& value)
 			else if (shapeType == "GroundPlane")
 			{
 				uint32_t rows = static_cast<uint32_t>(shapeData["Rows"].GetInt());
-				uint32_t columns = static_cast<uint32_t>(shapeData["columns"].GetInt());
+				uint32_t columns = static_cast<uint32_t>(shapeData["Columns"].GetInt());
 				float spacing = shapeData["Spacing"].GetFloat();
 				mesh.mesh = MeshBuilder::CreateGroundPlane(rows, columns, spacing);
 			}

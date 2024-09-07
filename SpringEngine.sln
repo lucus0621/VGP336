@@ -118,6 +118,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{1D0EBF64-B7F1-4F9C-AFC1-9BFB02CD7B98}"
 	ProjectSection(SolutionItems) = preProject
 		Assets\Templates\fps_camera.json = Assets\Templates\fps_camera.json
+		Assets\Templates\ground.json = Assets\Templates\ground.json
 		Assets\Templates\test_level.json = Assets\Templates\test_level.json
 		Assets\Templates\test_model.json = Assets\Templates\test_model.json
 		Assets\Templates\test_object.json = Assets\Templates\test_object.json
@@ -126,6 +127,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_HelloGameObjectFactory", "VGP336\24_HelloGameObjectFactory\24_HelloGameObjectFactory.vcxproj", "{EDB21F19-792E-43FF-99D9-2060E4FC3DA6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_HelloGameWorld", "VGP336\25_HelloGameWorld\25_HelloGameWorld.vcxproj", "{7C04133C-B243-4DB6-AD66-2C6EC21B0309}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTKAudio_Desktop_2022_Win8", "External\DirectXTK\Audio\DirectXTKAudio_Desktop_2022_Win8.vcxproj", "{4F150A30-CECB-49D1-8283-6A3F57438CF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Audio", "Framework\Audio\Audio.vcxproj", "{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -423,6 +428,22 @@ Global
 		{7C04133C-B243-4DB6-AD66-2C6EC21B0309}.Release|x64.Build.0 = Release|x64
 		{7C04133C-B243-4DB6-AD66-2C6EC21B0309}.Release|x86.ActiveCfg = Release|Win32
 		{7C04133C-B243-4DB6-AD66-2C6EC21B0309}.Release|x86.Build.0 = Release|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x64.ActiveCfg = Debug|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x64.Build.0 = Debug|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x86.Build.0 = Debug|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x64.ActiveCfg = Release|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x64.Build.0 = Release|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x86.ActiveCfg = Release|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x86.Build.0 = Release|Win32
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Debug|x64.ActiveCfg = Debug|x64
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Debug|x64.Build.0 = Debug|x64
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Debug|x86.Build.0 = Debug|Win32
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Release|x64.ActiveCfg = Release|x64
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Release|x64.Build.0 = Release|x64
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Release|x86.ActiveCfg = Release|Win32
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -467,6 +488,8 @@ Global
 		{1D0EBF64-B7F1-4F9C-AFC1-9BFB02CD7B98} = {A0233C06-4343-44EE-9775-06633180C822}
 		{EDB21F19-792E-43FF-99D9-2060E4FC3DA6} = {F427553F-85F6-4438-82BA-146B88A57327}
 		{7C04133C-B243-4DB6-AD66-2C6EC21B0309} = {F427553F-85F6-4438-82BA-146B88A57327}
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5} = {C5BFC193-0FB4-4593-AE46-FC9EBC8283DA}
+		{BAAC9AFB-B695-4C72-935D-DC52D14E1B37} = {7AC7C15C-4D75-4134-A969-AB7C533A7C92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D0AC193-6F87-4854-B7B1-0619DF878E8F}

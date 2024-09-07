@@ -21,12 +21,12 @@ void RigidBody::Initialize(SpringEngine::Graphics::Transform& graphicsTransform,
 
 	mMotionstate = new btDefaultMotionState(ConvertTobyTransform(graphicsTransform));
 	mRigidBody = new btRigidBody(mMass, mMotionstate, shape.GetCollisionShape());
-	PhysicsWorld::Get()->Register(this);
+	//PhysicsWorld::Get()->Register(this);
 }
 
 void RigidBody::Terminate()
 {
-	PhysicsWorld::Get()->Unregister(this);
+	//PhysicsWorld::Get()->Unregister(this);
 	SafeDelete(mRigidBody);
 	SafeDelete(mMotionstate);
 }

@@ -89,7 +89,7 @@ void RenderService::DebugUI()
 	mShadowEffect.DebugUI();
 }
 
-void RenderService::Deserialize(rapidjson::Value& value)
+void RenderService::Deserialize(const rapidjson::Value& value)
 {
 	if (value.HasMember("LightDirection"))
 	{

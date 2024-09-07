@@ -28,6 +28,11 @@ namespace SpringEngine::Physics
 
 		void Register(PhysicsObject* physicsObject);
 		void Unregister(PhysicsObject* physicsObject);
+
+		void SetGravity(const Math::Vector3& gravity);
+		void SetSimSteps(uint32_t steps);
+		void SetFixedTimeStep(float timeStep);
+
 	private:
 		Settings mSettings;
 

@@ -23,7 +23,15 @@
       "Rings": 5,
       "Radius": 1.0,
       "Position": [ 0.0, 1.0, 0.0 ],
-      "Color":  [1.0, 1.0, 0.0, 1.0]
+      "Color": [ 1.0, 1.0, 0.0, 1.0 ]
+    },
+    "RigidBodyComponent": {
+      "Mass": 10.0,
+      "ColliderData": {
+        "Shape": "Hull",
+        "HalfExtents": [ 0.4, 1.0, 0.2 ],
+        "Origin": [ 0.0, 1.0, 0.0 ]
+      }
     }
   }
 }

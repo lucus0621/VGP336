@@ -114,6 +114,12 @@
     <ClInclude Include="Inc\GameObjectHandle.h">
       <Filter>Inc</Filter>
     </ClInclude>
+    <ClInclude Include="Inc\PhysicsService.h">
+      <Filter>Inc\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RigidBodyComponent.h">
+      <Filter>Inc\Componets</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Precompiled.cpp">
@@ -174,6 +180,12 @@
       <Filter>Src\Componets</Filter>
     </ClCompile>
     <ClCompile Include="Src\AnimatorComponent.cpp">
+      <Filter>Src\Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PhysicsService.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RigidBodyComponent.cpp">
       <Filter>Src\Componets</Filter>
     </ClCompile>
   </ItemGroup>

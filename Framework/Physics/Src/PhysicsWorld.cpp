@@ -135,6 +135,23 @@ void PhysicsWorld::Unregister(PhysicsObject* physicsObject)
 	}
 }
 
+void PhysicsWorld::SetGravity(const Math::Vector3& gravity)
+{
+	ASSERT(mDynamicsWorld != nullptr, "PhysicsWorld: static initialized was not called");
+	mSettings.gravity = gravity;
+	mDynamicsWorld->setGravity(ConvertTobtVector3(gravity));
+}
+
+void PhysicsWorld::SetSimSteps(uint32_t steps)
+{
+	mSettings.simulationSteps = steps;
+}
+
+void PhysicsWorld::SetFixedTimeStep(float timeStep)
+{
+	mSettings.fixedTimeStep = timeStep;
+}
+
 btSoftBody* PhysicsWorld::CreateSoftBody(int nodeCount)
 {
 	btSoftBody* softBody = new btSoftBody(&mSoftBodyWorld->getWorldInfo(), nodeCount, nullptr, nullptr);

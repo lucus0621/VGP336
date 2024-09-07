@@ -66,8 +66,8 @@ void App::Run(const AppConfig& config)
 		auto deltaTime = TimeUtil::GetDeltaTime();
 		if (deltaTime < 0.5f)
 		{
-			PhysicsWorld::Get()->Update(deltaTime);
-
+			//physics is a service
+			//PhysicsWorld::Get()->Update(deltaTime);
 			mCurrentState->Update(deltaTime);
 		}
 
